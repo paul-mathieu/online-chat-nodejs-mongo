@@ -68,8 +68,8 @@ socket.on('load-user', (user) => {
 // Connexion d'un nouvel utilisateur
 socket.on('user-is-logged-in', (user) => {
   $('#' + user).removeClass("loggedOut")
-  $('#' + user).addClass('new')
-  setTimeout(() => $('#users li.new').removeClass('new'), 1000)
+  //$('#' + user).addClass('new')
+  //setTimeout(() => $('#users li.new').removeClass('new'), 1000)
 });
 
 // Déconnexion d'un utilisateur

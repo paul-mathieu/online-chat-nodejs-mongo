@@ -112,9 +112,9 @@ section#chat #users li.loggedOut {
 }
 
 section#chat #users li.active {
-    background: #2267e6;
+    background: #e67e22;
     color: white;
-    border: #2267e6;
+    border: #e67e22;
 }
 section#chat #users li {
     padding: 6px 10px;

@@ -7,9 +7,9 @@ const io = require('socket.io')(http)
 // Add colours on the console
 require('colors')
 
-const redisQuery = require('./lib/redisQuery.js')
-const mongoQuery = require('./lib/mongoQuery.js')
-const mongoRedisQuery = require('./lib/mongoRedisQuery.js')
+const redisQuery = require('./lib/redis.js')
+const mongoQuery = require('./lib/mongo.js')
+const mongoRedisQuery = require('./lib/mongo-redis.js')
 
 /**
  * Management of users' HTTP requests by returning files from the 'public' folder
