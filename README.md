@@ -64,3 +64,9 @@ Open some tabs on localhost:3000 and enjoy the chat !
 ## Extra : data queries
 
 ##### TODO
+
+## /!\ Caution /!\
+
+This app isn't GPRD compatible !
+
+The IP and the system parameters are logged in mongodb
