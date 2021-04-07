@@ -35,7 +35,7 @@ mongod --port 30000 --dbpath ./data/arb --replSet rs0
 ```
 mongo --port 27020
 ```
-Then
+Then (in the mongo shell)
 ```
 rs.initiate()
 rs.conf()
@@ -61,3 +61,6 @@ node server.js
 
 Open some tabs on localhost:3000 and enjoy the chat !
 
+## Extra : data queries
+
+##### TODO
