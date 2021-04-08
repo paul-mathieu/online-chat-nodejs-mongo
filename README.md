@@ -3,10 +3,10 @@
 Based on https://github.com/BenjaminBini/socket.io-chat
 
 ## Technologies
-* NodeJS (for the server)
-* MongoDB (to store the messages)
-* Redis (to store the connected users)
-* Socket.io (for the real time messaging)
+* NodeJS (server)
+* MongoDB (messages, connections and users)
+* Redis (connected users)
+* Socket.io (instant messaging)
 
 ## Install the packages
 ```
