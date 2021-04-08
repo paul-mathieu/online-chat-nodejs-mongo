@@ -46,24 +46,28 @@ def messages_stats(db):
 def users_stats(db):
     users = list(db.users.find())
 
+    # list of users
+    print('Users:')
+    print([user['username'] for user in users])
+
 if __name__ == "__main__":
     client = MongoClient(port=27020)
     db = client.chat_server
     
     try:
-        print('==== Connections Stats ====')
+        print('\n==== Connections Stats ====')
         connections_stats(db)
     except:
         print('error with collection \'connections\'')    
     
     try:
-        print('==== Messages Stats ====')
+        print('\n==== Messages Stats ====')
         messages_stats(db)
     except:
         print('error with collection \'messages\'')    
     
     try:
-        print('==== Users Stats ====')
+        print('\n==== Users Stats ====')
         users_stats(db)
     except:
         print('error with collection \'users\'')
